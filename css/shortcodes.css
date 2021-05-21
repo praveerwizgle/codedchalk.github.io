@@ -879,14 +879,16 @@ a.link:hover::before {
 
 .name-box,
 .email-box,
+.contact-box,
 .message-box {
     position: relative;
     display: block;
 }
 
 .name-box,
-.email-box {
-    width: 47%;
+.email-box,
+.contact-box {
+    width: 100%;
     float: left;
     margin-bottom: 20px;
     margin-right: 6%;
