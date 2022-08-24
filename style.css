@@ -26,11 +26,11 @@
 
 @font-face {
     font-family: 'sanctum';
-    src: url('fonts/sanctum/sanctum.eot');
+    src: url('/fonts/sanctum/sanctum.eot');
     /* IE9 Compat Modes */
-    src: url('fonts/sanctum/sanctumd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('fonts/sanctum/sanctum.woff') format('woff'), /* Modern Browsers */
-    url('fonts/sanctum/sanctum.ttf') format('truetype'), /* Safari, Android, iOS */
+    src: url('/fonts/sanctum/sanctum.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/sanctum/sanctum.woff') format('woff'), /* Modern Browsers */
+    url('/fonts/sanctum/sanctum.ttf') format('truetype'), /* Safari, Android, iOS */
     url('fonts/sanctum/sanctum.svg#svgsanctum') format('svg');
     /* Legacy iOS */
 }
@@ -1094,7 +1094,7 @@ main {
     top: 0;
     left: 0;
     background-color: #0f1010;
-    background-image: url(images/rotate.html);
+    background-image: url(images/rotate.png);
     background-size: 100px 100px;
     background-position: center;
     background-repeat: no-repeat;
